@@ -6,9 +6,9 @@ from geopy.distance import geodesic # For calculating distances between coordina
 def get_coordinates(city):
     try:
         # Initialize geocoder with a unique user agent and timeout
-        # we use timeout to prevent  the slow connection
+        # we use timeout to prevent  the slow connection 
         nom = Nominatim(user_agent="city_lat_long", timeout=10) 
-        location = nom.geocode(city + ", Saudi Arabia") 
+        location = nom.geocode(city + ", Saudi Arabia")  
         if location:
             return location.latitude, location.longitude
         else:
