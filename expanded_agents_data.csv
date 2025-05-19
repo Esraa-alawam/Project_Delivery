@@ -1,0 +1,6 @@
+AgentID,Name,City,Availability,VehicleType,CanCarryFragile
+A001,Agent_1,Jazan,9AM-5PM,Car,True
+A002,Agent_2,Najran,9AM-5PM,Motorbike,False
+A003,Agent_3,Medina,9AM-5PM,Truck,True
+A004,Agent_4,Tabuk,9AM-5PM,Car,False
+A005,Agent_5,Jazan,9AM-5PM,Car,True
