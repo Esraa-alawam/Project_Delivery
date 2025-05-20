@@ -1,5 +1,4 @@
-##Process orders
-echo "OrderID,FromCity,ToCity,ItemType,BestAgent,BestCity,Distance(km)" > "$OUTPUT_FILE"
+#!/bin/bash
 
 process_order() {
     local OrderID=$1 FromCity=$2 ToCity=$3 ItemType=$4
